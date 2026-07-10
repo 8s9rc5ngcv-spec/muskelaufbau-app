@@ -1,0 +1,5 @@
+const CACHE='muskelcoach-v6-local-gifs';
+const ASSETS=["./", "./index.html", "./app-v6.js", "./styles-v6.css", "./manifest.webmanifest", "./muskelcoach-icon-180.png", "./muskelcoach-icon-192.png", "./muskelcoach-icon-512.png", "./gifs/0001-2gPfomN.gif", "./gifs/0129-RrLske5.gif", "./gifs/0609-bLyQokI.gif", "./gifs/0662-I4hDWkc.gif", "./gifs/0664-KhHJ338.gif", "./gifs/1323-SJqRxOt.gif", "./gifs/1685-QChZi3x.gif", "./gifs/2298-Mxa7Cr8.gif", "./gifs/2368-9E25EOx.gif", "./gifs/3561-GibBPPg.gif"];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(resp=>{const copy=resp.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return resp;})));});

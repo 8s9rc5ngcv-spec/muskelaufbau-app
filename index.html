@@ -5,21 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#101827" />
   <title>MuskelCoach</title>
-  <link rel="manifest" href="manifest.webmanifest?v=5.1" />
-  <link rel="apple-touch-icon" href="muskelcoach-icon-180.png?v=5.1" />
-  <link rel="stylesheet" href="styles-v5.css?v=5.1" />
+  <link rel="manifest" href="manifest.webmanifest?v=6" />
+  <link rel="apple-touch-icon" href="muskelcoach-icon-180.png?v=6" />
+  <link rel="stylesheet" href="styles-v6.css?v=6" />
   <script>
-    // Alte PWA-Versionen und deren Cache beim ersten Aufruf sicher entfernen.
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.unregister()));
-    }
-    if ('caches' in window) {
-      caches.keys().then(keys => Promise.all(keys.map(key => caches.delete(key))));
+      window.addEventListener('load', () => navigator.serviceWorker.register('sw-v6.js'));
     }
   </script>
 </head>
 <body>
   <div id="app"></div>
-  <script src="app-v5.js?v=5.1"></script>
+  <script src="app-v6.js?v=6"></script>
 </body>
 </html>

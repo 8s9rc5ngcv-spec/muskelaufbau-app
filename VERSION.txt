@@ -1,3 +1,1 @@
-MuskelCoach Version 5.1
-Enthält app-v5.js und styles-v5.css.
-Alte PWA-Caches werden beim Öffnen entfernt.
+MuskelCoach V6 – GIFs lokal integriert und offline verfügbar
