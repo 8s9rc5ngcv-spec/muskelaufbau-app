@@ -1,2 +1,5 @@
-MuskelCoach Version 11
-Neues Trainingslayout nach dem abgestimmten Mockup. GIF und Beschreibung sind strikt getrennt; sichere iPhone-Abstände und aktualisierter Offline-Cache.
+MuskelCoach Version 12
+- GIF steht vollständig allein in einer eigenen weißen Karte
+- Sätze/Wiederholungen/Pause in separater Karte darunter
+- auffällige Strichmännchen-GIFs durch anatomischere Animationen ersetzt
+- Offline-Cache v12

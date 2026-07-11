@@ -1,7 +1,7 @@
 {
-  "name": "MuskelCoach v11",
+  "name": "MuskelCoach v12",
   "short_name": "MuskelCoach",
-  "start_url": "./?v=11",
+  "start_url": "./?v=12",
   "display": "standalone",
   "background_color": "#101827",
   "theme_color": "#101827",
