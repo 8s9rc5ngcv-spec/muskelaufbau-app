@@ -1,3 +1,5 @@
-MuskelCoach Version 7
-- Ausführliche Übungserklärungen
-- Häufige Fehler, Atmung sowie leichtere und schwierigere Varianten
+MuskelCoach Version 8
+- Übungserklärungen standardmäßig sichtbar
+- Geräte-GIFs ersetzt
+- Training beenden führt zur Startseite
+- Cache-Aktualisierung verbessert
