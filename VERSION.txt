@@ -1,5 +1,8 @@
-MuskelCoach Version 8
-- Übungserklärungen standardmäßig sichtbar
-- Geräte-GIFs ersetzt
-- Training beenden führt zur Startseite
-- Cache-Aktualisierung verbessert
+MuskelCoach Version 9
+
+- Geführter Trainingsmodus: immer nur eine Übung sichtbar
+- Nummerierung Übung 1 von 5 usw.
+- Fortschrittsbalken im Training
+- Weiter- und Zurück-Navigation
+- Training kann erst nach der letzten Übung abgeschlossen werden
+- Ordnername und ZIP-Version stimmen überein
