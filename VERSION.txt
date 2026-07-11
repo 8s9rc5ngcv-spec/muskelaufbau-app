@@ -1,1 +1,3 @@
-MuskelCoach V6 – GIFs lokal integriert und offline verfügbar
+MuskelCoach Version 7
+- Ausführliche Übungserklärungen
+- Häufige Fehler, Atmung sowie leichtere und schwierigere Varianten
