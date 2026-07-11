@@ -1,1 +1,2 @@
-MuskelCoach Version 10
+MuskelCoach Version 11
+Neues Trainingslayout nach dem abgestimmten Mockup. GIF und Beschreibung sind strikt getrennt; sichere iPhone-Abstände und aktualisierter Offline-Cache.
