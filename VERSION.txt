@@ -1,5 +1,6 @@
-MuskelCoach Version 12
-- GIF steht vollständig allein in einer eigenen weißen Karte
-- Sätze/Wiederholungen/Pause in separater Karte darunter
-- auffällige Strichmännchen-GIFs durch anatomischere Animationen ersetzt
-- Offline-Cache v12
+MuskelCoach Version 13
+
+- Statische, realistischere Übungsbilder statt GIFs
+- Bilder basieren auf dem neuen Trainer-Stil
+- GIF-Bereich und Trainingsdaten bleiben getrennt
+- Cache-Version 13
